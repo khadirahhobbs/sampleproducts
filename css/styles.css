@@ -1,0 +1,292 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 90%;
+	margin: 50px auto 10em;
+	font-family: 'Oswald', Arial, sans-serif;
+
+}
+
+#wrapper {
+	margin: 0 auto;
+	max-width: 1280px;
+	min-width: 1280px;
+	height: 100%;
+	clear: both;
+	overflow: hidden;
+	font-family: Arial;
+	-webkit-box-shadow: 0 0 25px 20px rgba(211,211,211,1);
+	box-shadow: 0 0 25px 20px rgba(211,211,211,1);
+	background-color: rgb(255,255,255);
+}
+
+header {
+	margin: 50px 0;
+}
+
+
+.jumbotext {
+	font-family: 'Lato', sans-serif;
+	font-weight: 200;
+	color: rgb(0,0,0);
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 80px;
+	font-style: italic;
+}
+
+.b {
+	font-weight: 700;
+}
+
+
+nav {
+	margin: 0 auto;
+	clear: both;
+}
+
+#logo {
+	width: 125px;
+	float: left;
+	margin-bottom: 50px;
+	margin-left: 50px;
+}
+
+#main-nav {
+	width:  1000px;
+	float: right;
+	margin-bottom: 50px;
+}
+
+#main-nav ul {
+	text-align: center;
+	margin: 20px 0 20px 0;
+	
+}
+
+#main-nav ul li {
+	display: inline-block;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 25px 45px 0;
+}
+
+#main-nav  ul li:first-child {
+	padding-left: 0;
+}
+
+#main-nav  ul li:last-child(4) {
+	padding-right: 0;
+}
+
+#main-nav ul li a {
+	text-decoration: none;
+	color: rgb(0,0,0);
+	text-align: center;
+}
+
+#main-nav ul li a:link {
+	color: rgb(0,0,0);
+	text-decoration: none;
+}
+
+#main-nav ul li a:visit {
+	color: white;
+	text-decoration: none;
+}
+
+/* Hover effect from: http://bradsknutson.com/blog/css-sliding-underline/; */
+
+.animate-hover {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+}
+.animate-hover:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    transition: width 0s ease;
+}
+.animate-hover:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background: rgb(0,0,0);
+    transition: width .5s ease;
+}
+.animate-hover:hover:before {
+    width: 0%;
+    background:  rgb(0,0,0);
+    transition: width .5s ease;
+}
+.animate-hover:hover:after {
+    width: 0%;
+    background: transparent;
+    transition: width 0s ease;
+}
+
+/* End Hover effect */
+
+#jumbo {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+main {
+	clear: both;
+}
+
+#leftCol {
+	float: left;
+	width: 500px;
+	clear: both;
+	margin-left: 15px;
+}
+
+/* Gallery things */
+/* Thumbnails */
+
+
+
+.thumbnails {
+	overflow: hidden;
+	margin: 1em 0;
+	padding: 0;
+	text-align: left;
+	width: 640px;
+}
+
+.thumbnails li {
+	display: inline-block;
+	width: 100px;
+	margin: 0 31px;
+}
+
+.thumbnails li:first-child {
+	margin-left: 0;
+}
+
+.thumbnails li:nth-child(4) {
+	margin-right: 0;
+}
+
+.thumbnails img {
+	
+	min-width: 100%;
+	max-width: 100%;
+}
+
+.toggle {
+
+	margin: 10px auto 1.5em;
+}
+
+/* End thumbnails */
+/* End Gallery things */
+
+#rightCol {
+	float: right;
+	width: 600px;
+
+}
+
+#leftCol, #rightCol {
+	margin-bottom: 50px;
+}
+
+footer ul {
+	text-align: center;
+	margin: 20px 0 20px 0;
+}
+
+footer ul li {
+	display: inline-block;
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 15px 60px 0;
+}
+
+footer  ul li:first-child {
+	padding-left: 0;
+}
+
+footer  ul li:nth-child(4) {
+	padding-right: 0;
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: rgb(0,0,0);
+	text-align: center;
+}
+
+footer ul li a:link {
+	color: rgb(0,0,0);
+	text-decoration: none;
+}
+
+footer ul li a:visit {
+	color: white;
+	text-decoration: none;
+}
+
+footer hr {
+	width: 1000px;
+	margin: 30px auto;
+	opacity: .6;
+
+}
+
+/* Begin Tab things */
+#tabs {
+	overflow: scroll;
+}
+
+
+#tabs ul {
+}
+
+#tabs {
+	height: 710px;
+}
+
+/* End Tab things */
+/* Begin Carousel things */
+.slider{
+	width:1200px;
+	margin:20px auto;
+	text-align:center;
+	clear: both;
+	margin: 50px auto 80px;
+}
+
+.slider h3{
+	padding:40px 20px;
+	background:orange;
+}
+
+.slider div{
+	margin-right:5px;
+}
+
+/* End Carousel things */
+
+
+
+
